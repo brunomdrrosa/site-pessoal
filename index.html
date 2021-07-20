@@ -3,59 +3,144 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Site pessoal | Bruno Machado</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=0.6, maximum-scale=1.0, 
+     user-scalable=yes"
+    />
+    <title>Bruno Machado</title>
+    <link rel="icon" href="favicon.ico?v=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <center>
-          <img
-            src="/images/scratch.png"
-            alt="Foto de perfil do Bruno"
-            width="200"
-            height="200"
-          />
-          <h1>Bruno Machado da Rosa</h1>
-          <p><em>Estudante de Ciência da Computação.</em></p>
-          <p>
-            Estou estudando para me tornar um desenvolvedor Python no futuro.
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="nuvem-img" />
+      <div class="title-text">
+        <h1>Me chamo Bruno.</h1>
+        <h2>sou um <span class="pro">pro</span>gramador.</h2>
+      </div>
+      <img class="bottom-cloud" src="images/cloud.png" alt="nuvem-img" />
+      <img src="images/mountain.png" alt="montanha-img" />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img src="images/bruno.png" class="bruno" alt="Foto do Bruno" />
+        <h2>Olá</h2>
+        <p class="intro">
+          Sou um estudante de Ciência da Computação, no momento estou aprendendo
+          Desenvolvimento Web e também estou aprendendo a utilizar a linguagem
+          Python.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>Minhas habilidades</h2>
+        <div class="skill-row">
+          <img class="python-imgs" src="images/habilidades2.png" alt="" />
+          <h3>Python</h3>
+          <p class="python-description">
+            Comecei a aprender a programar com Python em 2020, por ser uma
+            linguagem muito utilizada na Inteligência Artificial e por gerenciar
+            Big Data. Desde então, eu publico meus projetos através de
+            repositórios no GitHub, desde de projetos simples, em que eu estava
+            aprendendo a criar uma calculadora em Python até projetos mais
+            complexos em que eu realizei utilizando bibliotecas como Pandas e
+            GeoPy, para calcular distâncias entre dois pontos.
           </p>
-    <hr>
-    <h3>Formação acadêmica</h3>
-    <p>
-      <a href="https://www.cesuca.edu.br/graduacao/ciencia-da-computacao/"
-        >Centro Universitário Cesuca</a
-      >
-      (Bacharelado em Ciência da Computação) | 2021 – 2024
-    </p>
-    <p>
-      <a href="https://www.percutz.com.br/">Percutz English Specialist</a>
-      (Ensino de Inglês como Segundo Idioma) | 2017 – 2021
-    </p>
-    <p>
-      Finalista na 35°
-      <a href="https://www.mostratec.com.br/">MOSTRATEC</a> (Mostra
-      Internacional de Ciência e Tecnologia) | 2020
-    </p>
-    <hr>
-    <h3>Habilidades</h3>
-    <table cellspacing="5">
-      <tr>
-        <td>HTML ⭐⭐⭐⭐⭐</td>
-        <td>Python ⭐⭐⭐⭐⭐</td>
-      <tr>
-        <td>CSS ⭐⭐⭐⭐⭐</td>
-        <td>Bootstrap ⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Javascript ⭐⭐⭐⭐⭐</td>
-        <td>React ⭐⭐⭐</td>
-      </tr>
-      </tr>
-    </table>
-    <hr>
-    <a href="hobbies.html">Meus hobbies</a>
-    <a href="contato.html">Entre em contato</a>
-  </center>
+        </div>
+        <div class="skill-row">
+          <img class="web-imgs" src="images/habilidades.png" alt="" />
+          <h3>HTML, CSS e Javascript</h3>
+          <p class="web-description">
+            Recentemente, comecei a aprender sobre Desenvolvimento Web, pois
+            sempre tive curiosidade de saber como um website era criado. Já
+            havia aprendido o básico dessas ferramentas em 2020, mas agora estou
+            estudando para aprender habilidades mais avançadas como: Node.js,
+            SQL e ReactJS.
+          </p>
+        </div>
+      </div>
+      <hr>  
+      <div class="skills">
+        <h2>Meus certificados</h2>
+        <div class="skill-row">
+          <img class="google-imgs" src="images/google.png" alt="" />
+          <h3>Fundamentos do Design de Experiência do Usuário</h3>
+          <h4>por Google</h4>
+          <p>Emitido em mai. de 2021.</p>
+          <p>
+            Os designers de UX se concentram nas interações que as pessoas têm
+            com produtos como sites e aplicativos móveis. O papel pode incluir
+            empatia com os usuários, surgindo com ideias para soluções de design
+            e testando designs para obter feedback.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="john-imgs" src="images/john.png" alt="" />
+          <h3>HTML, CSS e Javascript para Desenvolvedores Web</h3>
+          <h4>por Johns Hopkins University</h4>
+          <p>Emitido em jan. de 2021.</p>
+          <p>
+            Você percebe que a única funcionalidade de um aplicativo da web com
+            a qual o usuário interage diretamente é por meio da página da web?
+            Implemente-o mal e o lado do servidor se torna irrelevante! Neste
+            curso você aprenderá as ferramentas básicas que todo codificador de
+            página da web precisa saber.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="michigan-imgs" src="images/michigan.jpg" alt="" />
+          <h3>Programação para todos (Primeiros passos no Python)</h3>
+          <h4>por University of Michigan</h4>
+          <p>Emitido em set. de 2020.</p>
+          <p>
+            Este curso tem como objetivo ensinar a todos os conceitos básicos de
+            programação de computadores usando Python. Cobrimos o básico de como
+            construir um programa a partir de uma série de instruções simples em
+            Python. O curso não tem pré-requisitos e evita tudo, exceto a
+            matemática mais simples.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="google2-imgs" src="images/google.png" alt="" />
+          <h3>Fundamentos do Suporte Técnico</h3>
+          <h4>por Google</h4>
+          <p>Emitido em set. de 2019.</p>
+          <p>
+            Neste curso você será apresentado ao mundo da Tecnologia da Informação, ou
+            TI. Você aprenderá sobre diversas facetas da Tecnologia da
+            Informação, como hardware, software, internet, resolução de
+            problemas e atendimento ao cliente. Este curso abrange uma vasta gama
+            de tópicos da TI.
+          </p>
+        </div>
+        <hr />
+        <div class="contact-me">
+          <h2>Contato</h2>
+          <h3>Tem um projeto ou precisa de ajuda?</h3>
+          <p>Envie-me uma mensagem e vamos conversar.</p>
+          <a class="btn" href="mailto:brunomdr46@gmail.com">CONTATE-ME</a>
+        </div>
+      </div>
+      <div class="bottom-container">
+        <a
+          class="footer-link"
+          href="https://www.linkedin.com/in/bruno-machado-da-rosa/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a
+          class="footer-link"
+          href="https://github.com/brunomdrrosa"
+          target="_blank"
+          >GitHub</a
+        >
+        <p class="copyright">© 2021 Bruno Machado</p>
+      </div>
+    </div>
   </body>
 </html>
