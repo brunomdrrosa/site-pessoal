@@ -28,7 +28,7 @@ h3 {
 a {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
-  margin: 10px 10px;
+  margin: 10px 20px;
   text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ hr {
 }
 
 p {
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .intro {
@@ -65,6 +65,7 @@ p {
 .bottom-container {
   background-color: #66BFBF;
   padding: 50px 0 20px;
+  margin-top: 50px;
 }
 
 .top-cloud {
@@ -104,28 +105,24 @@ p {
 .google-imgs {
   float: left;
   margin-right: 30px;
-  padding-top: 25px;
   width: 20%;
 }
 
 .john-imgs {
   float: right;
   margin-left: 30px;
-  padding-top: 40px;
   width: 25%;
 }
 
 .michigan-imgs {
   float: left;
   margin-right: 30px;
-  padding-top: 40px;
-  width: 22%;
+  width: 23%;
 }
 
 .google2-imgs {
   float: right;
   margin-left: 30px;
-  padding-top: 40px;
   width: 20%;
 }
 
