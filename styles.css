@@ -1,39 +1,39 @@
 body {
-  color: #40514E;
+  color: #40514e;
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 h1 {
-  color: #66BFBF;
-  font-family: 'Sacramento', cursive;
+  color: #66bfbf;
+  font-family: "Sacramento", cursive;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
 }
 
 h2 {
-  color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
   padding-bottom: 10px;
 }
 
 h3 {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
 a:hover {
-  color: #EAF6F6
+  color: #eaf6f6;
 }
 
 hr {
@@ -53,7 +53,7 @@ p {
 }
 
 .top-container {
-  background-color: #E4F9F5;
+  background-color: #e4f9f5;
   position: relative;
   padding-top: 100px;
 }
@@ -63,7 +63,7 @@ p {
 }
 
 .bottom-container {
-  background-color: #66BFBF;
+  background-color: #66bfbf;
   padding: 50px 0 20px;
   margin-top: 50px;
 }
@@ -88,6 +88,12 @@ p {
   margin: 100px auto 100px auto;
   width: 50%;
   text-align: left;
+}
+
+.cesuca-imgs {
+  float: left;
+  margin-right: 30px;
+  width: 15%;
 }
 
 .python-imgs {
@@ -136,10 +142,10 @@ p {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 20px;
   text-decoration: none;
 }
 
@@ -153,8 +159,111 @@ p {
   text-decoration: none;
 }
 
+.contact-message {
+  margin: 30px;
+}
+
 .copyright {
-  color: #EAF6F6;
+  color: #eaf6f6;
   font-size: 0.75rem;
   padding: 20px 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .top-cloud {
+    position: absolute;
+    right: 450px;
+    top: 40px;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    left: 450px;
+    bottom: 300px;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .bruno {
+    width: 50%;
+  }
+
+  .ola {
+    font-size: 3rem;
+  }
+
+  .intro {
+    font-size: 1.3rem;
+    width: 70%;
+  }
+
+  .cesuca-imgs {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .texto-left {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .texto-left2 {
+    margin: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .cesuca {
+    margin: 50px auto 50px auto;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .cesuca2 {
+    margin: 50px auto 50px auto;
+    width: 110%;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .python-imgs {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .web-imgs, .google-imgs, .john-imgs, .michigan-imgs, .google2-imgs {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .skill-row {
+    margin: 50px auto 50px auto;
+    width: 65%;
+    text-align: left;
+  }
+
+  a {
+    color: #eaf6f6;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
 }
